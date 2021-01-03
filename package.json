@@ -1,0 +1,19 @@
+{
+  "name": "amplify-js-local",
+  "description": "Simple Amplify JS wrapper script for use with LocalStack",
+  "version": "0.1.0",
+  "bin": {
+    "amplifylocal": "bin/amplifylocal"
+  },
+  "main": "lib/index.js",
+  "author": {
+    "name": "LocalStack",
+    "organization": true
+  },
+  "license": "Apache-2.0",
+  "dependencies": {},
+  "repository": {
+    "url": "https://github.com/localstack/amplify-js-local",
+    "type": "git"
+  }
+}

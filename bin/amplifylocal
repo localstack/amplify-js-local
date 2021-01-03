@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+
+// apply patches
+require('../lib/index').applyPatches();
+
+// code below copied from "amplify" script
+if (process.pkg) {
+  require('@aws-amplify/cli/lib/utils/copy-override').copyOverride();
+} else {
+  require = require('esm')(module, { cache: false });
+}
+require('@aws-amplify/cli/lib/index').run();
