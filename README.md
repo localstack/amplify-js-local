@@ -62,7 +62,7 @@ $ awslocal appsync list-graphql-apis
     ...
 ```
 
-## Using the Library in your Node.js Program
+## Using the Library in your Node.js Program (Backend)
 
 In addition to using the CLI, you should also be able to use the library in your local Node.js program.
 
@@ -75,8 +75,24 @@ amplifyLocal.applyPatches();
 ...
 ```
 
+## Using the Library in your ES6 JavaScript Code (e.g., React Frontend)
+
+The library can also be imported and used in your ES6 frontend code (e.g., React.js):
+
+```
+import Amplify from 'aws-amplify';
+import applyPatches from 'amplify-js-local/lib/es6';
+
+// apply patches
+applyPatches();
+
+// configure Amplify
+Amplify.configure(...);
+```
+
 ## Change Log
 
+* 0.1.1: Add patching for `@aws-amplify/auth` endpoints
 * 0.1.0: Initial release
 
 ## License

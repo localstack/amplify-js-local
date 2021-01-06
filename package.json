@@ -1,7 +1,7 @@
 {
   "name": "amplify-js-local",
   "description": "Simple Amplify JS wrapper script for use with LocalStack",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "bin": {
     "amplifylocal": "bin/amplifylocal"
   },
