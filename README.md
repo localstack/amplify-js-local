@@ -92,6 +92,7 @@ Amplify.configure(...);
 
 ## Change Log
 
+* 0.1.2: Patch AWS SDK clients (Cognito IdP/Identity) to use local endpoints
 * 0.1.1: Add patching for `@aws-amplify/auth` endpoints
 * 0.1.0: Initial release
 
