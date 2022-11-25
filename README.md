@@ -23,7 +23,8 @@ $ amplifylocal --version
 The following environment variables can be configured:
 
 * `EDGE_PORT`: Port under which LocalStack edge service is accessible (default: `4566`)
-* `LOCALSTACK_HOSTNAME`: Target host under which LocalStack edge service is accessible (default: `localhost`)
+* `LOCALSTACK_HOSTNAME`: Target host under which LocalStack edge service is accessible (default: `localhost.localstack.cloud`)
+* `LOCALSTACK_ENDPOINT`: Sets a custom endpoint directly. Overrides `EDGE_PORT` and `LOCALSTACK_HOSTNAME` (default `https://localhost.localstack.cloud:4566`)
 
 ## Deploying a Sample App via the CLI
 
