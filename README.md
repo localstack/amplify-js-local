@@ -23,7 +23,8 @@ $ amplifylocal --version
 The following environment variables can be configured:
 
 * `EDGE_PORT`: Port under which LocalStack edge service is accessible (default: `4566`)
-* `LOCALSTACK_HOSTNAME`: Target host under which LocalStack edge service is accessible (default: `localhost`)
+* `LOCALSTACK_HOSTNAME`: Target host under which LocalStack edge service is accessible (default: `localhost.localstack.cloud`)
+* `LOCALSTACK_ENDPOINT`: Sets a custom endpoint directly. Overrides `EDGE_PORT` and `LOCALSTACK_HOSTNAME` (default `https://localhost.localstack.cloud:4566`)
 
 ## Deploying a Sample App via the CLI
 
@@ -92,6 +93,8 @@ Amplify.configure(...);
 
 ## Change Log
 
+* 0.1.8: Patch AWS_AMPLIFY_ENDPOINT and add HTTPS support
+* 0.1.7: Include esm lib in the dependencies
 * 0.1.2: Patch AWS SDK clients (Cognito IdP/Identity) to use local endpoints
 * 0.1.1: Add patching for `@aws-amplify/auth` endpoints
 * 0.1.0: Initial release
