@@ -18,6 +18,8 @@ $ amplifylocal --version
 4.41.0
 ```
 
+**Warning:** Works with `@aws-amplify/cli<=4.41.0` for more recent versions use [Amplify Localstack plugin](https://github.com/localstack/amplify-localstack)
+
 ## Configurations
 
 The following environment variables can be configured:
