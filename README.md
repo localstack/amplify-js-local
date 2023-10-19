@@ -1,3 +1,9 @@
+# Deprecated Project
+
+**This project is deprecated** and no longer actively maintained. For a more up-to-date solution, please consider using the [Amplify LocalStack plugin](https://github.com/localstack/amplify-localstack).
+
+---
+
 # AWS Amplify CLI for LocalStack
 
 This project provides a thin wrapper script `amplifylocal` for using the [Amplify JS](https://github.com/aws-amplify/amplify-js) library against local APIs provided by [LocalStack](https://github.com/localstack/localstack).
